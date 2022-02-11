@@ -32,6 +32,7 @@ Here are some ideas to get you started:
 
 ### 🍃  _CSS Tricks_
 
+- _updating soon_
 
 ## 🍁 __JavaScript__
 
@@ -44,3 +45,9 @@ Here are some ideas to get you started:
 - [REACT-CRUD](https://github.com/99Ace/how-to-create-react-link-api) - Call the [API-CRUD](https://github.com/99Ace/) and perform CRUD using React
 
 ## 🍁 __Python__
+
+- _updating soon_
+
+
+## 🍁 __Mini Projects__
+- [Retirement Calculator](https://99ace.github.io/retirement-calculator/) - HTML/CSS/JQuery/Chart JS -[[view code]](https://github.com/99Ace/retirement-calculator)
