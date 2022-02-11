@@ -19,7 +19,9 @@ Here are some ideas to get you started:
 
 # Welcome to __Ace's Page__ 🍁
 
-    This page is dedicated for sharing and learning. As I am also constantly learning, do let me know if there is a better solution or if you found any errors. 
+    This page is dedicated for sharing and learning. 
+    As I am also constantly learning, do let me know 
+    if there is a better solution or any errors. 
 
     Have fun learning!
     🍁 Ace aka Liang 🍁
