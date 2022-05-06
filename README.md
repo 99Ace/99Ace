@@ -52,3 +52,4 @@ Here are some ideas to get you started:
 
 ## 🍁 __Mini Projects__
 - [Retirement Calculator](https://99ace.github.io/retirement-calculator/) - HTML/CSS/JQuery/Chart JS -[[view code]](https://github.com/99Ace/retirement-calculator)
+- [Event Reg Form to GoogleSheet](https://miniproj-registration-form.netlify.app/) - REACT/HTML/CSS/BootStrap - [[view code]](https://github.com/99Ace/mini-project-registerform-eNitiative)
