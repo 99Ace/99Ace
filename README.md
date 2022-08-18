@@ -52,4 +52,7 @@ Here are some ideas to get you started:
 
 ## 🍁 __Mini Projects__
 - [Retirement Calculator](https://99ace.github.io/retirement-calculator/) - HTML/CSS/JQuery/Chart JS -[[view code]](https://github.com/99Ace/retirement-calculator)
-- [Event Reg Form to GoogleSheet](https://miniproj-registration-form.netlify.app/) - REACT/HTML/CSS/BootStrap - [[view code]](https://github.com/99Ace/mini-project-registerform-eNitiative)
+- [Event Reg Form to GoogleSheet](https://miniproj-registration-form.netlify.app/) - REACT/Express/HTML/CSS/BootStrap - [[view code]](https://github.com/99Ace/mini-project-registerform-eNitiative)
+- [Car Website- partially complete](https://sgmotormart.netlify.app) - REACT/Express/HTML/CSS/BootStrap 
+    - [[view React code]](https://github.com/99Ace/-mini-project-TGC-P2-react)    
+    - [[view Express API code]](https://github.com/99Ace/mini-project-TGC-P2/blob/main/index.js)
