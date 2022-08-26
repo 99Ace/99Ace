@@ -38,6 +38,9 @@ Here are some ideas to get you started:
 
 - [Leaflets Maps](https://github.com/99Ace/TGC-BATHC-12-LEAFLET-MAPS) - Find the basic codes of the leaflets
 
+## 🍁 __TypeScript__
+- [Learning Basic TypeScript](https://github.com/99Ace/99Ace-typescript) - Find the basic of how typescript works
+
 ## 🍁 __Express__
 - [MONGO-CRUD](https://github.com/99Ace/99Ace-Express/tree/main/EXPRESS-MONGO) - Setup Express to link to MONGODB to do CRUD using FORMS
 - [API-CRUD](https://github.com/99Ace/how-to-create-api-express-mongoDB) - Setup Express to create Api that links to MongoDB and perform CRUD
