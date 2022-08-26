@@ -30,7 +30,7 @@ Here are some ideas to get you started:
 - [Basic HTML/CSS](https://github.com/99Ace/TGC-SDB-Batch3) - Learn the basic HTML CSS Commands
 
 
-### 🍃  _CSS Tricks_
+### 🍃  _SASS_
 
 - _updating soon_
 
