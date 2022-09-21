@@ -1,7 +1,7 @@
 @use 'sass:math';
 // Loading in following order
 // 0. Bootstrap
-// @import "../node_modules/bootstrap/scss/bootstrap.scss";
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
 
 // 1. Variables & functions
 @import './abstracts/variables';
