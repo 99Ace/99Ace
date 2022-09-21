@@ -1,20 +1,19 @@
-.btn {
+.btn-frame {
     display: inline-block;
-    padding: math.div($base-padding,2) $base-padding * 1.5;
+    padding: math.div($base-padding,4) $base-padding * 1.5;
     border-radius: $base-border-radius;
     border: none;
     text-decoration: none;
+    color: $base-color-light;
 }
-.btn-sm {
-    @extend .btn;
-    padding: math.div($base-padding,4) $base-padding * 1.5;
-}
+
 @each $key, $val in $colors {
     .btn-#{$key} {
         color: $base-color-light;
         background-color: $val;
         &:hover {
             background-color: darken($val,10);
+            color: $base-color-light;
         }
     }
     .btn-outline-#{$key} {
@@ -28,3 +27,8 @@
     }
 }
 
+@media (min-width: 992px) {
+    .btn-frame {
+        padding: math.div($base-padding,2) $base-padding * 1.5;
+    }
+}

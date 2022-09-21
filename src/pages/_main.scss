@@ -21,6 +21,9 @@ main{
         a {
             color: $base-color-primary;
             margin: 0 math.div($base-padding,2);
+            &:hover {
+                color: darken($base-color-primary,10);
+            }
         }
     }
 }
