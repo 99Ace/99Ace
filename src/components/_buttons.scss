@@ -1,0 +1,24 @@
+.btn {
+    display: inline-block;
+    padding: math.div($base-padding,2) $base-padding * 1.5;
+    border-radius: $base-border-radius;
+}
+@each $key, $val in $colors {
+    .btn-#{$key} {
+        color: $base-color-light;
+        background-color: $val;
+        &:hover {
+            background-color: darken($val,10);
+        }
+    }
+    .btn-outline-#{$key} {
+        background-color: $base-color-light;
+        color: $val;
+        border: $val solid $base-border-thickness;
+        &:hover {
+            background-color: $val;
+            color:$base-color-light;
+        }
+    }
+}
+
