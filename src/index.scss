@@ -1,4 +1,7 @@
 @use 'sass:math';
+// External Font import
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
 // Loading in following order
 // 0. Bootstrap
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
@@ -13,10 +16,14 @@
 // 3. components (button, card, navbar)
 @import 'components/cards';
 @import 'components/buttons';
+@import 'components/navbar';
 
 // 4. colors
 @import 'abstracts/colors';
 @import './abstracts/fonts';
 
 // 5. utilities (margin, padding, opacity)
-@import './abstracts/utilities'
+@import './abstracts/utilities';
+
+// 6. pages
+@import './pages/main';

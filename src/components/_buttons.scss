@@ -2,6 +2,12 @@
     display: inline-block;
     padding: math.div($base-padding,2) $base-padding * 1.5;
     border-radius: $base-border-radius;
+    border: none;
+    text-decoration: none;
+}
+.btn-sm {
+    @extend .btn;
+    padding: math.div($base-padding,4) $base-padding * 1.5;
 }
 @each $key, $val in $colors {
     .btn-#{$key} {

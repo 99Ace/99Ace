@@ -1,30 +1,27 @@
-main {
+main, section {
     padding: $base-padding;
     color: $base-color-dark;
     box-sizing: border-box;
-}
-section {
-    @extend main;
     margin-top: $base-margin * 2;
 
 }
 @media (min-width:768px) {
-    main {
+    main, section {
         padding: $base-padding *1.25;
     }
 }
 @media (min-width:992px) {
-    main {
+    main, section {
         padding: $base-padding *1.5;
     }
 }
 @media (min-width:1200px) {
-    main {
+    main, section {
         padding: $base-padding *1.75;
     }
 }
 @media (min-width:1400px) {
-    main {
+    main, section {
         padding: $base-padding * 2;
     }
 }

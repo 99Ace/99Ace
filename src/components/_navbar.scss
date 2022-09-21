@@ -1,0 +1,46 @@
+nav {
+    .navbar-brand {
+        border-radius: 50%;
+        overflow: hidden;
+        height: 50px;
+        width: 50px;
+        transform: rotate(-45deg);
+        padding: 0;
+    }
+    .navbar-toggler {
+        border: solid $base-color-primary $base-border-thickness*2;
+
+        /* to remove the box shadow of the collapse button when clicked on */
+        &:focus {
+            // box-shadow: none;
+            box-shadow: 1px 3px 5px $base-color-primary;
+        }
+        .fa-bars-staggered {
+            font-size: $base-font-size *1.75;
+            color: $base-color-dark;
+        }
+    }
+    .navbar-nav {
+        width: fit-content;
+        border-left: solid $base-color-dark 1px;
+        margin-left: auto;
+        padding: 0 $base-padding;
+        .nav-link {
+            padding: math.div($base-padding,4);
+        }
+       
+    } 
+}
+@media (min-width: 992px) {
+
+    .navbar-brand{
+        display: none;
+    }
+    .navbar-expand-lg .navbar-nav {
+        flex-direction: column;
+    }   
+    .navbar-nav {
+        margin-top: $base-padding *2;
+        margin-bottom: $base-padding *2;
+    }
+}
