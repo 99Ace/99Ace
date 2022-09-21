@@ -1,0 +1,72 @@
+#about-me {
+    & >div {
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+        .info {
+            background-color: $base-color-base;
+            border-radius: $base-border-radius $base-border-radius 0 0 ;
+            padding: $base-padding;
+         
+            .marker {
+                width: 100px;
+                height: 100px;
+                border-radius: 50% 50% 50% 0;
+                transform: translateX(50px) rotate(-45deg);
+                overflow: hidden;
+                padding: 0;
+                margin: $base-margin*2 auto;
+               
+            }
+            .marker + h3 {
+                font-size: $font-size-md;
+                font-weight: 700;
+                span{
+                    font-size : $font-size-xl;    
+                }
+            }
+            .role {
+                margin-top: $base-margin;
+                padding: $base-padding;
+                p {
+                    margin-top: math.div($base-margin,2);
+                }
+            }
+        }
+        .info + div {
+            width: 100%;
+            background-color: red;
+            padding: 0;
+            img {
+                width: 100%;
+            }
+        }
+    }
+    
+}
+@media (min-width: 768px){
+    #about-me {
+        & >div {
+            width: 80%;
+        }
+    }
+}
+@media (min-width: 992px){
+    #about-me {
+        & >div {
+            width: 60%;
+        }
+        .marker {
+            width: 200px;
+            height: 200px;
+            transform: rotate(-45deg) translateX(20px);
+        }
+        transform: rotate(-3deg) translateY(-50px);
+    }
+}
+@media (min-width: 1200px){
+    
+}
+@media (min-width: 1400px){
+    
+}
