@@ -1,5 +1,5 @@
 main, section {
-    // padding: $base-padding;
+    padding: $base-padding;
     // color: $base-color-dark;
     box-sizing: border-box;
     margin-top: $base-margin * 2;
@@ -7,21 +7,21 @@ main, section {
 }
 @media (min-width:768px) {
     main, section {
-        // padding: $base-padding *1.25;
+        padding: $base-padding *1.25;
     }
 }
 @media (min-width:992px) {
     main, section {
-        // padding: $base-padding *1.5;
+        padding: $base-padding *1.5;
     }
 }
 @media (min-width:1200px) {
     main, section {
-        // padding: $base-padding *1.75;
+        padding: $base-padding *1.75;
     }
 }
 @media (min-width:1400px) {
     main, section {
-        // padding: $base-padding * 2;
+        padding: $base-padding * 2;
     }
 }
