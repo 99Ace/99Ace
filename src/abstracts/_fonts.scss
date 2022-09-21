@@ -14,7 +14,11 @@
 // h5 {
 //     font-size: clamp($font-size-xs,$font-size-xs + 1vw, $font-size-lg);
 // }
-h1,h2,h3,h4,h5,h6,p {
+h1,h2,h3,h4,h5,h6 {
     // font-family: 'Inter', sans-serif;
+    margin: 0;
+    font-weight: 700;
+}
+p {
     margin: 0;
 }
