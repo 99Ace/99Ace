@@ -1,5 +1,18 @@
-@import './variables';
+// Loading in following order
+// 1. Variables & functions
+@import './abstracts/variables';
+@import './abstracts/functions';
 
-h1 {
-    color: $base-color-1;
-}
+// 2. base & layouts
+@import './base';
+
+// 3. components (button, card, navbar)
+@import 'components/cards';
+@import 'components/buttons';
+
+// 4. colors
+@import 'abstracts/colors';
+@import './abstracts/fonts';
+
+// 5. utilities (margin, padding, opacity)
+@import './abstracts/utilities'

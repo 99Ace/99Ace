@@ -1,0 +1,55 @@
+// import sass math
+@use 'sass:math';
+@use 'sass:map';
+
+// ==== VARIABLES ====
+// theme colors
+$base-color-dark : #333;
+$base-color-primary : #FB8111;
+$base-color-github : #6CC644;
+$base-color-muted : #828282;
+$base-color-base : #D8D8D8;
+$base-color-light : #FAFAFA;
+
+// color palette
+$colors : (
+    "dark" : $base-color-dark,
+    "primary":$base-color-primary,
+    "github":$base-color-github,
+    "muted":$base-color-muted,
+    "base":$base-color-base,
+    "light":$base-color-light,
+);
+
+// ==== SPACING ====
+$base-padding : 0.75rem;
+$base-margin : 0.75rem;
+
+// ==== BORDERS ====
+$base-border-thickness :1px;
+$base-border-radius :20px;
+
+// ==== BOX SHADOW ====
+$base-box-shadow : 1px 3px 5px $base-color-muted;
+
+// ==== FONT SIZES ====
+$base-font-size : 1rem;
+$font-size-xs : 0.563 * $base-font-size;
+$font-size-sm : 0.75 * $base-font-size;
+$font-size-md : 1 * $base-font-size;
+$font-size-lg : 1.333 * $base-font-size;
+$font-size-xl : 1.777 * $base-font-size;
+$font-size-2xl : 2.369 * $base-font-size;
+$font-size-3xl : 3.157 * $base-font-size;
+$font-size-4xl : 4.209 * $base-font-size;
+
+$fonts : (
+    "xs" : $font-size-xs,
+    "sm":$font-size-sm,
+    "md":$font-size-md,
+    "lg":$font-size-lg,
+    "xl":$font-size-xl,
+    "2xl":$font-size-2xl,
+    "3xl":$font-size-3xl,
+    "4xl":$font-size-4xl,
+);
