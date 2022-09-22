@@ -364,6 +364,10 @@ iframe {
   --bs-gutter-y: 3rem;
 }
 @media (min-width: 768px) {
+  .col-md-3 {
+    flex: 0 0 auto;
+    width: 25%;
+  }
   .col-md-4 {
     flex: 0 0 auto;
     width: 33.33333333%;
@@ -1322,6 +1326,9 @@ main .mini-nav a:hover {
   #skills .dummy {
     display: block;
     height: 400px;
+  }
+  #skills #technical-skill {
+    margin-left: 3rem;
   }
 }
 #my-projects {
