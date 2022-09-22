@@ -19,6 +19,7 @@ Here are some ideas to get you started:
 
 # Welcome to __Ace's Page__ 🍁
 
+
     This page is dedicated for sharing and learning. 
     As I am also constantly learning, do let me know 
     if there is a better solution or any errors. 
@@ -26,11 +27,15 @@ Here are some ideas to get you started:
     Have fun learning!
     🍁 Ace aka Liang 🍁
 
+#
+Read more about Ace aka Liang --> [🍁 here 🍁](https://99ace.github.io/99Ace/)
+#
+
 ## 🍁 __HTML / CSS__
 - [Basic HTML/CSS](https://github.com/99Ace/TGC-SDB-Batch3) - Learn the basic HTML CSS Commands
 
 
-### 🍃  _SASS_
+### 🍃  __SASS__
 
 - _updating soon_
 
@@ -54,8 +59,12 @@ Here are some ideas to get you started:
 
 
 ## 🍁 __Mini Projects__
-- [Retirement Calculator](https://99ace.github.io/retirement-calculator/) - HTML/CSS/JQuery/Chart JS -[[view code]](https://github.com/99Ace/retirement-calculator)
-- [Event Reg Form to GoogleSheet](https://miniproj-registration-form.netlify.app/) - REACT/Express/HTML/CSS/BootStrap - [[view code]](https://github.com/99Ace/mini-project-registerform-eNitiative)
-- [Car Website- partially complete](https://sgmotormart.netlify.app) - REACT/Express/HTML/CSS/BootStrap 
+1. [Retirement Calculator](https://99ace.github.io/retirement-calculator/) - HTML/CSS/JQuery/Chart JS -[[view code]](https://github.com/99Ace/retirement-calculator)
+1. [Event Reg Form to GoogleSheet](https://miniproj-registration-form.netlify.app/) - REACT/Express/HTML/CSS/BootStrap - [[view code]](https://github.com/99Ace/mini-project-registerform-eNitiative)
+1. [Car Website- partially complete](https://sgmotormart.netlify.app) - REACT/Express/HTML/CSS/BootStrap 
     - [[view React code]](https://github.com/99Ace/-mini-project-TGC-P2-react)    
     - [[view Express API code]](https://github.com/99Ace/mini-project-TGC-P2/blob/main/index.js)
+1. [🍁 Childcare website](https://99ace.github.io/kkcc-sass/) - 
+HTML/CSS/BootStrap/Sass[[view code]](https://github.com/99Ace/kkcc-sass)
+1. [🍁 Personal Resume](https://99ace.github.io/99Ace/) - 
+HTML/CSS/BootStrap/Sass[[view code]](https://github.com/99Ace/99Ace)
