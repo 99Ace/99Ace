@@ -27,9 +27,10 @@
 @import './abstracts/utilities';
 
 // 6. pages
-@import './pages/main';
-@import './pages/about-me';
-@import './pages/skills';
-@import './pages/projects';
-@import './pages/education';
-@import './pages/career';
+@import './sections/main';
+@import './sections/about-me';
+@import './sections/skills';
+@import './sections/projects';
+@import './sections/education';
+@import './sections/career';
+@import './sections/contact';

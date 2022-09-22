@@ -108,7 +108,7 @@ hr {
   opacity: 0.25;
 }
 
- h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
+h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   margin-top: 0;
   margin-bottom: 0.5rem;
   font-weight: 500;
@@ -153,6 +153,10 @@ h4, .h4 {
 
 h5, .h5 {
   font-size: 1.25rem;
+}
+
+h6, .h6 {
+  font-size: 1rem;
 }
 
 p {
@@ -798,6 +802,11 @@ progress {
   align-items: center !important;
 }
 
+.my-3 {
+  margin-top: 1rem !important;
+  margin-bottom: 1rem !important;
+}
+
 .mt-2 {
   margin-top: 0.5rem !important;
 }
@@ -810,6 +819,10 @@ progress {
   margin-top: 1.5rem !important;
 }
 
+.mt-5 {
+  margin-top: 3rem !important;
+}
+
 .me-2 {
   margin-right: 0.5rem !important;
 }
@@ -820,6 +833,10 @@ progress {
 
 .mb-2 {
   margin-bottom: 0.5rem !important;
+}
+
+.ms-3 {
+  margin-left: 1rem !important;
 }
 
 .ms-auto {
@@ -838,13 +855,26 @@ progress {
   font-style: italic !important;
 }
 
+.text-end {
+  text-align: right !important;
+}
+
 .text-center {
   text-align: center !important;
+}
+
+.text-decoration-none {
+  text-decoration: none !important;
 }
 
 /* rtl:begin:remove */
 
 /* rtl:end:remove */
+
+.text-light {
+  --bs-text-opacity: 1;
+  color: rgba(var(--bs-light-rgb), var(--bs-text-opacity)) !important;
+}
 
 .text-dark {
   --bs-text-opacity: 1;
@@ -879,29 +909,29 @@ progress {
     margin-bottom: 0 !important;
   }
 }
-main, section {
+main, section, footer {
   padding: 0.75rem;
   box-sizing: border-box;
   margin-top: 1.5rem;
 }
 
 @media (min-width: 768px) {
-  main, section {
+  main, section, footer {
     padding: 0.9375rem;
   }
 }
 @media (min-width: 992px) {
-  main, section {
+  main, section, footer {
     padding: 1.125rem;
   }
 }
 @media (min-width: 1200px) {
-  main, section {
+  main, section, footer {
     padding: 1.3125rem;
   }
 }
 @media (min-width: 1400px) {
-  main, section {
+  main, section, footer {
     padding: 1.5rem;
   }
 }
@@ -1349,11 +1379,15 @@ nav .navbar-nav .nav-link {
   color: #828282;
 }
 
+.text-light {
+  color: #FAFAFA;
+}
+
 .bg-base {
   background-color: #D8D8D8;
 }
 
-h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   margin: 0;
   font-weight: 700;
 }
@@ -1516,4 +1550,11 @@ main .mini-nav a:hover {
 }
 #career .fa-shoe-prints {
   transform: rotate(-45deg);
+}
+footer {
+  background-color: #333;
+  color: #FAFAFA;
+}
+footer i {
+  font-size: 1.333rem;
 }

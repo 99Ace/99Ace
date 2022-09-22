@@ -1,0 +1,8 @@
+footer {
+    @extend section;
+    background-color: $base-color-dark;
+    color: $base-color-light;
+    i {
+        font-size: $font-size-lg;
+    }
+}
