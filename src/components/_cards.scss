@@ -4,65 +4,78 @@
     display: flex;
     justify-content: space-evenly;
     gap: $base-padding;
+
     .logo {
         flex: 1;
         font-size: $font-size-2xl;
         text-align: center;
+
         img {
             width: 80%;
         }
     }
+
     .language {
         flex: 4;
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
-        & :nth-child(1){
+
+        & :nth-child(1) {
             display: flex;
             justify-content: space-between;
             gap: $base-padding;
+
             i {
                 line-height: 1.3;
             }
         }
     }
 }
+
 .soft-skill-card {
     width: min(95%, 380px);
     padding: math.div($base-padding, 4) $base-padding;
     display: flex;
     justify-content: space-evenly;
     gap: $base-padding;
+
     .logo {
         flex: 1;
         font-size: $font-size-2xl *0.8;
         text-align: center;
+
         img {
             width: 80%;
         }
     }
+
     .rating {
         flex: 4;
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
-        
+
     }
 }
+
 .spoken-language-card {
     width: min(95%, 380px);
     padding: math.div($base-padding, 4) $base-padding;
     display: flex;
     justify-content: space-evenly;
     gap: $base-padding;
+
     .logo {
         flex: 1;
         font-size: $font-size-2xl *0.8;
         text-align: center;
+
         img {
             width: 80%;
         }
     }
+
     .rating {
         flex: 4;
         display: flex;
@@ -77,28 +90,60 @@
     border: 1px solid $base-color-dark;
     box-shadow: $base-box-shadow-2;
     background-color: $base-color-light;
-    border-radius: math.div($base-border-radius,2);
+    border-radius: math.div($base-border-radius, 2);
     margin: 0 auto;
     overflow: hidden;
     position: relative;
 
     display: flex;
     flex-direction: column;
+
     .open-link {
         color: $base-color-primary;
         margin-left: $base-padding;
-        &:hover{
-            color: darken($base-color-primary,10);
+
+        &:hover {
+            color: darken($base-color-primary, 10);
         }
-    }                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
+    }
+
     iframe {
         flex: 2;
         position: relative;
         overflow: hidden;
-        
+
     }
+
     .info {
         flex: 1;
-        padding: math.div($base-padding,2);
+        padding: math.div($base-padding, 2);
     }
+}
+
+.career-card {
+    width: min(95%, 380px);
+    min-height: 280px;
+    border: 1px solid $base-color-dark;
+    box-shadow: $base-box-shadow-2;
+    padding: math.div($base-padding,1) $base-padding;
+    margin: auto;
+    .upper-wrapper {
+        display: flex;
+        
+        .logo {
+            width: 100px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 $base-margin *2;
+            img {
+                width: 70%;
+            }
+        }
+        .career-header {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+
 }
