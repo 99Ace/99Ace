@@ -70,3 +70,35 @@
         justify-content: space-evenly;
     }
 }
+
+.project-card {
+    width: min(95%, 380px);
+    height: 400px;
+    border: 1px solid $base-color-dark;
+    box-shadow: $base-box-shadow-2;
+    background-color: $base-color-light;
+    border-radius: math.div($base-border-radius,2);
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    .open-link {
+        color: $base-color-primary;
+        margin-left: $base-padding;
+        &:hover{
+            color: darken($base-color-primary,10);
+        }
+    }                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
+    iframe {
+        flex: 2;
+        position: relative;
+        overflow: hidden;
+        
+    }
+    .info {
+        flex: 1;
+        padding: math.div($base-padding,2);
+    }
+}

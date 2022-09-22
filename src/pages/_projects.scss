@@ -1,0 +1,21 @@
+#my-projects {
+    background-color: rgb(235, 199, 16);
+    min-height: 100vh;    
+    text-align: center;
+    &>div:nth-child(1) {
+        width: min(95%, 380px);
+        margin: $base-padding *2 auto 0;
+    }
+    .listing {
+        // border: 1px solid;
+        margin: math.div($base-margin,2) auto 0;
+        // width: min(80%, 600px);
+    }
+}
+@media (min-width:1200px) {
+    #my-projects {
+        .listing {
+            
+        }
+    }
+}
