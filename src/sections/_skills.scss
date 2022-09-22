@@ -4,6 +4,11 @@
         display: none;
         position: relative;
     }
+    #technical-skill {
+        width: min(95%,500px);
+        margin: $base-margin auto;
+        // border: 1px solid ;
+    }
 }
 
 @media (min-width:992px) {

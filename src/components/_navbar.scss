@@ -32,7 +32,9 @@ nav {
     } 
 }
 @media (min-width: 992px) {
-
+    nav {
+        z-index: 99;
+    }
     .navbar-brand{
         display: none;
     }

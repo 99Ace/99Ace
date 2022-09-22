@@ -32,6 +32,32 @@
         }
     }
 }
+.code-card {
+    // width: min(90%, 120px);
+    .frame {
+        height: 80px;
+        width: 80px;
+        // border: 2px solid $base-color-muted;
+        box-shadow: $base-box-shadow;
+        border-radius: $base-border-radius;
+        margin: $base-margin auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        i {
+            font-size: 3.5rem;
+        }
+        img {
+            width: 75%;
+        }
+    }
+    .rating{
+ 
+        // width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+}
 
 .soft-skill-card {
     width: min(95%, 380px);
